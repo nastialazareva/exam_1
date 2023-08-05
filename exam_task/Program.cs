@@ -14,3 +14,13 @@ void ArrayCut(string[] arr_1, string[] arr_2)
     }
 }
 
+void PrintArray(string[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write($"{arr[i]} ");
+    }
+    Console.WriteLine();
+}
+ArrayCut(arr_1, arr_2);
+PrintArray(arr_2);
