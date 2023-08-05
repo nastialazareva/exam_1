@@ -1,4 +1,7 @@
-﻿string[] arr_1 = new string[7] { "dog", "789", "cucumber", "47", "potato", "6588", "28" };
+﻿/* Написать программу, которая из имеющегося массива
+строк формирует массив из строк, длина которых меньше либо равна 3 символа. */
+
+string[] arr_1 = new string[7] { "dog", "789", "cucumber", "47", "potato", "6588", "28" };
 string[] arr_2 = new string[arr_1.Length];
 
 void ArrayCut(string[] arr_1, string[] arr_2)
